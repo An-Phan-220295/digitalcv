@@ -1,0 +1,92 @@
+@media screen and (max-width: 600px) {
+  #nav-bar {
+    all: initial;
+  }
+  #nav-bar a {
+    all: initial;
+    font-size: 20px;
+  }
+  .container-nav-custom {
+    all: initial;
+  }
+  .container-nav-custom > div {
+    align-items: center;
+    border: none;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+  }
+  #avatar-space {
+    display: none;
+  }
+  #about > .container-custom {
+    display: block;
+  }
+  #banner {
+    top: 20%;
+    font-size: 10px;
+  }
+  #banner h2 {
+    font-size: 15px;
+    margin: 0;
+  }
+  #banner-container {
+    height: 120px;
+  }
+  .banner-img {
+    height: 120px;
+  }
+  #certificate .container-custom {
+    margin: 0;
+  }
+  .certificate-info:nth-child(1)::after {
+    all: initial;
+  }
+  .certificate-info:nth-child(3) {
+    border: none;
+  }
+
+  #job-info .container-custom {
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .certificate-info {
+    display: block;
+    padding: 10px 10px !important;
+    border-bottom: 1px solid #d6c08d;
+  }
+  .certificate-info > img {
+    width: 100%;
+    height: auto;
+  }
+
+  .certificate-container {
+    display: block;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .project-container {
+    margin-left: 15px;
+    margin-right: 15px;
+    display: block;
+  }
+  .project-detail {
+    margin-bottom: 30px;
+  }
+  .project-info div {
+    display: block;
+  }
+  .project-img {
+    height: auto;
+  }
+  .project-detail {
+    display: grid;
+    grid-template-rows: max-content max-content auto auto;
+    border: 1px solid rgb(185, 185, 185);
+  }
+  .project-name {
+    height: auto;
+  }
+}
