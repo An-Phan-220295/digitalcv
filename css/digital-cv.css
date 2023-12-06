@@ -14,7 +14,7 @@
   border-bottom: 1px dashed rgb(33, 221, 196);
 }
 body {
-  margin: auto;
+  margin: 2rem 2.5rem 0.5rem 2.5rem;
 }
 .first-row {
   padding-top: 10px;
@@ -22,7 +22,7 @@ body {
 }
 .second-row {
   padding-top: 10px;
-  min-height: 320px;
+  min-height: 330px;
 }
 .timeline {
   padding-top: 10px;

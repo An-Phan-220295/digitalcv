@@ -283,6 +283,7 @@ section > .container-custom {
 }
 .certificate-info {
   display: flex;
+  margin-bottom: 40px;
 }
 .certificate-container {
   display: grid;
@@ -341,14 +342,18 @@ section > .container-custom {
 .project-name p {
   margin: 0;
 }
+.project-name a {
+  text-decoration: none;
+  color: black;
+}
 .project-name {
   display: flex;
-  /* align-self: center; */
   justify-content: center;
   padding: 10px 20px;
   font-size: 17px;
   text-align: center;
 }
+
 .project-info {
   padding: 10px 0px;
   font-size: 17px;

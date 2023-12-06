@@ -2,9 +2,7 @@
   body {
     font-size: 90.5% !important;
   }
-  .avatar {
-    display: none;
-  }
+  /* Adjust nav bar layout */
   #nav-bar {
     margin: 0;
   }
@@ -22,6 +20,7 @@
     display: flex;
     align-items: center;
   }
+  /* Adjust banner layout */
   #banner {
     top: 20%;
     font-size: 15px;
@@ -35,9 +34,11 @@
   .banner-img {
     height: 250px;
   }
-  section > .container-custom {
-    width: auto;
+  /* Hide avartar */
+  .avatar {
+    display: none;
   }
+  /* Adjust job info class layout */
   #job-info .container-custom {
     grid-template-columns: repeat(2, 48%);
     grid-column-gap: 4%;
@@ -45,9 +46,21 @@
     margin-left: 25px;
     margin-right: 25px;
   }
-
+  /* Adjust certificate layout */
   .certificate-info {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0;
+  }
+  .certificate-img {
+    height: 140px;
+  }
+  .certificate-details {
+    text-align: center;
+  }
+  .certificate-info:nth-child(2) {
+    padding-left: 50px;
   }
   .certificate-container {
     display: grid;
@@ -57,9 +70,7 @@
     margin-right: 25px;
     padding-bottom: 30px;
   }
-  #project .container-custom {
-    margin: 0;
-  }
+  /* Adjust project layout */
   .project-container {
     margin-left: 25px;
     margin-right: 25px;
@@ -74,7 +85,6 @@
   .project-name {
     height: 90px;
   }
-
   .project-detail {
     display: grid;
     grid-template-rows: max-content max-content max-content max-content;
